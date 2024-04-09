@@ -66,6 +66,16 @@ public class RGM_2920482221041 {
     public void setCurso_Turma(String curso_Turma) {
         this.curso_Turma = curso_Turma;
     }
+
+    //Adição do toString() para impressão do objeto
+    @Override
+    public String toString() {
+        return "RGM_2920482221041 [nomeCompleto=" + nomeCompleto + ", rgm=" + rgm + ", idade=" + idade + ", gitHub="
+                + gitHub + ", likedin=" + likedin + ", curso_Turma=" + curso_Turma + "]";
+    }
+
+
+    
     
     
 }

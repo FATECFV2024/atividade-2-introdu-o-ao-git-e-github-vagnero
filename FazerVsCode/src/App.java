@@ -22,7 +22,8 @@ public class App {
         System.out.printf(v2+" "+v1);
     }
     public static void main(String[] args) throws Exception {
-        funcao_teste();
+        RGM_2920482221041 rgm = new RGM_2920482221041();
+        System.out.println(rgm);
 
 
     }
